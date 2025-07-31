@@ -4,10 +4,11 @@ Main module for IBTest package.
 This module contains the core functionality for the IBTest package.
 """
 
+
 def hello_world() -> str:
     """
     Return a simple greeting message.
-    
+
     Returns:
         str: A greeting message
     """
@@ -23,4 +24,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
