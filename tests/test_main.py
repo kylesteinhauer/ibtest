@@ -2,7 +2,6 @@
 Tests for the main module of IBTest.
 """
 
-import pytest
 from ibtest.main import hello_world
 
 
@@ -24,4 +23,3 @@ def test_sample_fixture(sample_data):
     assert "test_key" in sample_data
     assert sample_data["test_key"] == "test_value"
     assert len(sample_data["numbers"]) == 5
-
