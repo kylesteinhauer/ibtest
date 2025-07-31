@@ -6,7 +6,8 @@ This module contains utility functions for data processing, plotting, and other 
 
 # Optional plotting imports
 try:
-    from .plotting import plot_cointegrated_pairs, plot_time_series, plot_spread
+    from .plotting import plot_cointegrated_pairs, plot_spread, plot_time_series
+
     _plotting_available = True
 except ImportError:
     _plotting_available = False
